@@ -1,0 +1,56 @@
+nav {
+  border-bottom: 2px solid #00a1ab;
+  opacity: 0.9;
+}
+
+body {
+  color: #fff;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding-right: 1rem;
+}
+
+#home {
+  margin-top: 78px;
+  background-image: url(../img/mountains.jpg);
+  background-size: cover;
+  min-height: 650px;
+  position: relative;
+  background-attachment: fixed;
+}
+
+#overlay {
+  background-color: rgba(0, 161, 171, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#about .row {
+  width: 50%;
+  border-bottom: 1px #ddd solid;
+}
+
+#authors .header {
+  width: 50%;
+  border-bottom: 1px #ddd solid;
+}
+
+#authors img {
+  width: 30%;
+  margin: -50px auto 0;
+}
+
+#authors i {
+  margin: 0 1.5rem;
+  color: white;
+}
+
+#authors .card:hover {
+  background-color: #00a1ab;
+  color: white;
+}

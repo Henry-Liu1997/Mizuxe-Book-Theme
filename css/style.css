@@ -22,13 +22,8 @@ body {
 }
 
 #overlay {
-  background-color: #00a1ab;
-  opacity: 0.7;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  background-color: rgba(0, 161, 171, 0.7);
+  min-height: 650px;
 }
 
 #about .row {
